@@ -6,6 +6,7 @@ import testBase.BaseTest;
 
 public class End2EndTest extends BaseTest {
 //Git test
+    //Git Test 2
     @Test(priority = 1)
     public void testRegister(){
         var register = homePage.clickRegister();
