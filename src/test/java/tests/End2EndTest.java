@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import testBase.BaseTest;
 
 public class End2EndTest extends BaseTest {
-
+//Git test
     @Test(priority = 1)
     public void testRegister(){
         var register = homePage.clickRegister();
